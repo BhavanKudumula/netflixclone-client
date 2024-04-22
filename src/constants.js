@@ -3,7 +3,7 @@ export const options = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1ZjZmOWRlMmRlNjJlZjkyOTBjNzA2MjI1ZjU2YmY1NCIsInN1YiI6IjY2MTY1MWM3YzY4YjY5MDE3YjIwMTkwZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.le9VZoajZUrS-ATwgTFN-RG5MpyFsLUcRWClJf9D0E8'
+      Authorization: 'process.env.TMDB_TOKEN',
     }
 };
 

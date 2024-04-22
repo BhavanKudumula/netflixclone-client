@@ -62,7 +62,7 @@ function Header() {
             className='bg-red-800 text-white px-4 py-2 ml-2 rounded-sm'
             >
               {
-                toogle? "Home" : "Search Movie"
+                toogle? "Home" : "Search"
               }
               
             </button>
